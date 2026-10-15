@@ -1,0 +1,16 @@
+[package]
+name = "gateway-core"
+description = "Pure WhatsApp Cloud API logic: payload types, signature check, normalization, status state machine, 24h window, outbound builders."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+hex.workspace = true
+hmac.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+subtle.workspace = true
+thiserror.workspace = true
